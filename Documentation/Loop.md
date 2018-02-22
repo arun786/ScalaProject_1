@@ -48,4 +48,37 @@
     
     }
 
+# For Loop
+
+## Scala
+    
+    package Loop
+    
+    /**
+      * Created by Adwiti on 2/22/2018.
+      */
+    object ForLoopInScala {
+    
+      def main(args : Array[String]): Unit ={
+        for(arg <- args){
+          println(arg)
+        }
+      }
+    }
+
+## Java
+
+    package Loop;
+    
+    /**
+     * Created by Adwiti on 2/22/2018.
+     */
+    public class ForLoopInJava {
+        public static void main(String[] args) {
+            for (String arg : args) {
+                System.out.println(arg);
+            }
+        }
+    }
+
 [Back to ReadMe](https://github.com/arun786/ScalaProject_1)
