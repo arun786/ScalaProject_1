@@ -5,9 +5,18 @@ package Loop
   */
 object ForLoopInScala {
 
-  def main(args : Array[String]): Unit ={
-    for(arg <- args){
+  def main(args: Array[String]): Unit = {
+    for (arg <- args) {
       println(arg)
     }
+
+    /**
+      * Concise forms of foreach
+      */
+    args.foreach(arg => println(arg))
+
+    args.foreach(println)
+
+    args foreach println
   }
 }
