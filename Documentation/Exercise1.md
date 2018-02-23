@@ -1,8 +1,8 @@
 # Exercises
 
-1. Reverse a String 
+## 1. Reverse a String 
 
-## Scala
+### Scala
 
     package Exercise1
     
@@ -20,7 +20,7 @@
       }
     }
 
-## Java
+### Java
 
     package Exercise1;
     
@@ -36,9 +36,9 @@
         }
     }
 
-2. Change to upper case
+## 2. Change to upper case
 
-## Scala
+### Scala
 
     package Exercise1
     
@@ -52,7 +52,7 @@
       }
     }
 
-## Java
+### Java
 
     package Exercise1;
     
