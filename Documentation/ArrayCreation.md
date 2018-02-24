@@ -30,7 +30,7 @@
         println()
     
         //Third way of creating an array
-        val newUsr = Array(1, 2, 3)
+        val newUsr = Array.apply(1, 2, 3)
         for (newUsr <- newUsr) {
           print(newUsr + ",")
         }
